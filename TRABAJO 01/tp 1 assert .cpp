@@ -24,7 +24,7 @@ int main() {
    assert(65+32=='a');
    assert(65+1=='B');
 //string
-   assert(10==std::string("hola q tal").length())
+   assert(10==std::string("hola q tal").length());
 
 
 }
