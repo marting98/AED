@@ -20,7 +20,9 @@ int main() {
    //char
 
    assert('a'!='d');
-
+   assert(65=='A');
+   assert(65+32=='a');
+   assert(65+1=='B');
 //string
    assert(10==std::string("hola q tal").length());
 
