@@ -36,5 +36,6 @@ int main() {
 //string
    assert(10==std::string("hola q tal").length());
    assert(12=="hola a todos"s.length());
-
+   assert("hola"s=="ho"s+"la"s);
+   assert("abcd"s=="ab"s+"cd"s);
 }
